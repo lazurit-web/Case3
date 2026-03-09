@@ -1,7 +1,7 @@
 import random
 
 # Генерируем массив
-N = 1  # специально поставил 1 для проверки
+N = 15
 A = [random.randint(-20, 30) for _ in range(N)]
 print("Массив:", A)
 
@@ -25,3 +25,4 @@ else:
     print(f"Интервал: [{left}:{right}]")
 
 print(f"Сумма отрицательных: {sum_negative}")
+
